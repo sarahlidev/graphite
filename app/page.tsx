@@ -161,6 +161,20 @@ export default function Home() {
             </button>
           ))}
         </div>
+
+        {/* Graphite Logo Section */}
+        <div className="text-center mt-8">
+          <div className="mb-4">
+            <Image
+              src="/images/images.png"
+              alt="Graphite Logo"
+              width={120}
+              height={120}
+              className="mx-auto"
+            />
+          </div>
+          <p className="text-gray-600 text-sm">this is a graphite test app</p>
+        </div>
       </div>
     </div>
   )
